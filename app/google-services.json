@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "192450873361",
+    "firebase_url": "https://likipiarestaurants.firebaseio.com",
+    "project_id": "likipiarestaurants",
+    "storage_bucket": "likipiarestaurants.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192450873361:android:13806abaef1fe589",
+        "android_client_info": {
+          "package_name": "com.example.user.likipiarestaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192450873361-3a03q4b8fhsq7n7frehul5o4k8iep5ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.likipiarestaurants",
+            "certificate_hash": "2b86e205511efba7196a0a09adc4983a1b39752d"
+          }
+        },
+        {
+          "client_id": "192450873361-dsf04g4e6jj79g5uj6p1b330pgcfa08k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_QAu0he0Zz7bIbrzQT5RqwJifLLGu6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192450873361-dsf04g4e6jj79g5uj6p1b330pgcfa08k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

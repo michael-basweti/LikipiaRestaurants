@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.likipiarestaurants">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/images17"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="UBC Registration" />
+        <activity
+            android:name=".PostActivity"
+            android:label="UBC Update Menu" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="UBC Login" />
+        <activity
+            android:name=".Restaurants_Login_Page"
+            android:label="All Restaurants AdminPage" />
+        <activity
+            android:name=".RegisterMess"
+            android:label="Mess Registration" />
+        <activity
+            android:name=".LoginMess"
+            android:label="Mess Login" />
+        <activity
+            android:name=".RegisterV2030"
+            android:label="V2030 Registration" />
+        <activity
+            android:name=".LoginV2030"
+            android:label="Vision 2030 Login" />
+        <activity
+            android:name=".PostActivityMess"
+            android:label="Mess Update Menu" />
+        <activity
+            android:name=".PostActivityVision"
+            android:label="Vision Update Menu" />
+        <activity
+            android:name=".LunchUpdateUBC"
+            android:label="UBC Update Menu" />
+        <activity
+            android:name=".BreakfastUpdateUBC"
+            android:label="UBC Update Menu" />
+        <activity
+            android:name=".SupperUpdateUBC"
+            android:label="UBC Update Menu" />
+        <activity
+            android:name=".BreakfastUpdateMess"
+            android:label="Mess Update Menu" />
+        <activity
+            android:name=".LunchUpdateMess"
+            android:label="Mess Update Menu" />
+        <activity
+            android:name=".SupperUpdateMess"
+            android:label="Mess Update Menu" />
+        <activity
+            android:name=".BreakfastUpdateV2030"
+            android:label="Vision Update Menu" />
+        <activity
+            android:name=".LunchUpdateV2030"
+            android:label="Vision Update Menu" />
+        <activity
+            android:name=".SupperUpdateV2030"
+            android:label="Vision Update Menu" />
+        <activity android:name=".TabFragment1" />
+        <activity android:name=".TabFragment2" />
+        <activity android:name=".TabFragment3" />
+        <activity android:name=".BreakfastUBC"
+            android:label="UBC Breakfast"/>
+        <activity android:name=".LunchUBC"
+            android:label="UBC Lunch"/>
+        <activity android:name=".SupperUBC"
+            android:label="UBC Supper"/>
+        <activity android:name=".BreakfastMess"
+            android:label="Mess Breakfast"/>
+        <activity android:name=".LunchMess"
+            android:label="Mess Lunch"/>
+        <activity android:name=".SupperMess"
+            android:label="Mess Supper"/>
+        <activity android:name=".BreakfastVision"
+            android:label="V2030 Breakfast"/>
+        <activity android:name=".LunchVision"
+            android:label="V2030 Lunch"/>
+        <activity android:name=".SupperVision"
+            android:label="V2030 Supper"></activity>
+    </application>
+
+</manifest>

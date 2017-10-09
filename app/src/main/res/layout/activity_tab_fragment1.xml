@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tab_fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.likipiarestaurants.TabFragment1"
+    android:background="@mipmap/stormont_food_1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Welcome to UBC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|italic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:textColor="@color/cast_intro_overlay_background_color" />
+
+    <Button
+        android:text="Breakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="88dp"
+        android:id="@+id/myButton"
+        android:textColor="@color/cast_intro_overlay_background_color"
+        android:background="@drawable/input_outline"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="lunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/cast_intro_overlay_background_color"
+        android:background="@drawable/input_outline"
+        android:layout_marginTop="64dp"
+        android:id="@+id/lunchubc" />
+
+    <Button
+        android:text="supper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cast_intro_overlay_background_color"
+        android:layout_below="@+id/lunchubc"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_outline"
+        android:layout_marginTop="64dp"
+        android:id="@+id/supperubc" />
+
+
+</RelativeLayout>

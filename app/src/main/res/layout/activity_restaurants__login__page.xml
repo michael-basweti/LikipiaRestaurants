@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_restaurants__login__page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.likipiarestaurants.Restaurants_Login_Page">
+
+
+    <Button
+        android:text="V2030"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/V2030"
+        android:layout_alignBaseline="@+id/Mess"
+        android:layout_alignBottom="@+id/Mess"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/input_outline"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <Button
+        android:text="UBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:id="@+id/UBC"
+        android:background="@drawable/input_outline"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:text="Mess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mess"
+        android:background="@drawable/input_outline"
+        android:layout_alignBaseline="@+id/UBC"
+        android:layout_alignBottom="@+id/UBC"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
